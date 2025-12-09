@@ -1,0 +1,75 @@
+Config:
+  ngram_range: (1, 1)
+  min_df: 5
+  max_df: 0.85
+  max_features: 50000
+  alpha: 0.2
+
+Deterministic seed: 42
+Vocabulary size: 822786
+Accuracy: 0.641500
+Macro-Precision: 0.647726
+Macro-Recall:    0.641500
+Macro-F1:        0.640869
+
+Per-class metrics:
+Class: animal
+  Support:   200
+  Precision: 0.746988
+  Recall:    0.620000
+  F1-score:  0.677596
+
+Class: art
+  Support:   200
+  Precision: 0.712766
+  Recall:    0.670000
+  F1-score:  0.690722
+
+Class: education
+  Support:   200
+  Precision: 0.536481
+  Recall:    0.625000
+  F1-score:  0.577367
+
+Class: entertainment
+  Support:   200
+  Precision: 0.639847
+  Recall:    0.835000
+  F1-score:  0.724512
+
+Class: finance
+  Support:   200
+  Precision: 0.698492
+  Recall:    0.695000
+  F1-score:  0.696742
+
+Class: food
+  Support:   200
+  Precision: 0.688742
+  Recall:    0.520000
+  F1-score:  0.592593
+
+Class: health
+  Support:   200
+  Precision: 0.625000
+  Recall:    0.650000
+  F1-score:  0.637255
+
+Class: history
+  Support:   200
+  Precision: 0.529680
+  Recall:    0.580000
+  F1-score:  0.553699
+
+Class: science
+  Support:   200
+  Precision: 0.606557
+  Recall:    0.555000
+  F1-score:  0.579634
+
+Class: sports
+  Support:   200
+  Precision: 0.692708
+  Recall:    0.665000
+  F1-score:  0.678571
+
